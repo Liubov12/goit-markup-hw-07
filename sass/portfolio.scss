@@ -1,0 +1,28 @@
+/*Главный файл стилей*/
+/* базовый*/
+@import'./base/base';
+@import'./base/normalize';
+
+/*утилиты*/
+
+@import'./utils/mixins';
+@import'./utils/variables';
+
+
+
+/* Шрифты */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+/* Для портфолио*/ 
+@import'./components/page-header';
+@import'./components/logo';
+@import'./components/nav';
+@import'./components/contacts';
+@import'./components/line';
+
+@import'./components/filters';
+@import'./components/techno';
+@import'./components/portfolio-footer';
+@import'./components/footer'

@@ -1,0 +1,89 @@
+
+footer{
+
+    background: #2F303A;
+}
+
+.footer-logo{
+
+    font-family:'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:white;
+    text-decoration: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+    color:$accent-color;
+    }
+}
+
+
+
+
+.social{
+    display: flex;
+    margin-top: 20px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    
+    &:hover,
+    &:focus{
+        color:$accent-color;
+    }
+}
+.social-link.instagram{
+    display: inline-block;
+    width:44px;
+    height: 44px;
+    background-image: url(../img/instagram.svg);
+    background-color:rgba(255, 255, 255, 0.1);;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+.social-link.twitter{
+    display: inline-block;
+    width:44px;
+    height: 44px;
+    background-image: url(../img/twitter.svg);
+    background-color:rgba(255, 255, 255, 0.1);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+.social-link.facebook{
+    display: inline-block;
+    width:44px;
+    height: 44px;
+    background-image: url(../img/fb.svg);
+    background-color:rgba(255, 255, 255, 0.1);;
+    background-size: 10px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+.social-link.linkedin{
+    display: inline-block;
+    width:44px;
+    height: 44px;
+    background-image: url(../img/linkedin.svg);
+    background-color:rgba(255, 255, 255, 0.1);;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.social li+li{
+    margin-left: 10px;
+}
+

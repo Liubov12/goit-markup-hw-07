@@ -1,0 +1,21 @@
+/* Миксины */
+@mixin pseudo {
+    content: '';
+    position: absolute;
+}
+
+@mixin container{
+    margin-left: auto;
+    margin-right: auto;
+    width:1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin contacts{
+    position: relative;
+    margin-right: 10px;
+    vertical-align: middle;
+}

@@ -1,0 +1,43 @@
+
+/*Главный файл стилей*/
+/* базовый*/
+@import'./base/base';
+@import'./base/normalize';
+
+/*утилиты*/
+
+@import'./utils/mixins';
+@import'./utils/variables';
+
+/* Компоненты */
+@import'./components/page-header';
+@import'./components/logo';
+@import'./components/nav';
+@import'./components/line';
+@import'./components/contacts';
+@import'./components/banner';
+
+@import'./components/modal';
+@import'./components/form-modal';
+
+@import'./components/feature-list';
+@import'./components/skill';
+@import'./components/team';
+@import'./components/clients';
+@import'./components/footer';
+
+@import'./components/form';
+
+
+
+/* Шрифты */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+
+
+
+
+
+

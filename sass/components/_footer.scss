@@ -1,0 +1,218 @@
+footer{    
+
+    background: #2F303A;    
+}
+        
+
+.footer-logo{
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:$white-color;
+    text-decoration: none;
+
+    &:hover,
+    &:focus{
+        color:$accent-color;
+    }
+
+ }
+.address{
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    
+    letter-spacing: 0.03em;
+    color:$white-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+
+
+    &:hover,
+    &:focus{
+        color:$accent-color;
+    }
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+
+.footer-link{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    
+    color:$contact-footer-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+        color:$accent-color;
+    }
+       
+}
+    
+.footer-title{  
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-color;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+   
+}
+    
+    /* footer-flex */
+.footer-flex{
+    display: flex;
+    }
+    
+.logo-flex{
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-bottom: 69px;
+}
+
+.address{
+    margin-top:20px ;
+}
+
+.link-flex{
+    margin-top: 72px;
+    margin-right: 93px;
+    margin-bottom: 36px;
+
+}
+
+.site.instagram{
+    display: inline-block;
+    width:44px;
+    height: 44px;
+    background-image: url(../img/instagram.svg);
+    background-color:rgba(255, 255, 255, 0.1);;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.site.twitter{
+    display: inline-block;
+    width:44px;
+    height: 44px;
+    background-image: url(../img/twitter.svg);
+    background-color:rgba(255, 255, 255, 0.1);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+.site.facebook{
+    display: inline-block;
+    width:44px;
+    height: 44px;
+    background-image: url(../img/fb.svg);
+    background-color:rgba(255, 255, 255, 0.1);;
+    background-size: 10px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+.site.linkedin{
+        display: inline-block;
+        width:44px;
+        height: 44px;
+        background-image: url(../img/linkedin.svg);
+        background-color:rgba(255, 255, 255, 0.1);;
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+}
+
+.site:hover,
+.site:focus{
+    background-color: $accent-color;
+}
+.social{
+    display: flex;
+    margin-top: 20px;
+    
+    & li+li{
+        margin-left: 10px;
+    }
+}
+.button-flex{
+     margin-top: 72px;
+       
+    
+}
+.footer-input{
+    margin-right:93px;
+    margin-top:20px;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    box-sizing: border-box;
+        
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 12px;
+        
+    background-color: transparent;
+}
+    
+.form-footer{
+        display: flex;
+    }
+.button.footer{
+    position: relative;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 29px;
+    padding-right: 62px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+        
+        
+    &::after{
+        content: "";
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: 13px;
+        right: 28px;
+       
+        background-repeat: no-repeat;
+        background-image: url("../img/icon.svg");
+        background-size: contain;
+        align-items: flex-end;
+    }
+}
+    

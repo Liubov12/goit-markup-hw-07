@@ -1,0 +1,52 @@
+ul{
+    margin: 0px;
+   }
+
+
+.contact-link{
+
+
+    color:$caption-color;
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    
+    &:hover,
+    &:focus{
+        color:$accent-color;
+        fill:$accent-color; 
+    }
+}
+.pin-mail{
+    position: relative;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    vertical-align: middle;
+
+}
+.pin-phone{
+    position: relative;
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+
+}
+.contacts{
+    
+    display: flex;
+    margin-left: 305px;
+}
+.marg{
+    margin-right: 30px;
+}
+.info{
+    fill:currentColor
+}
+
+
+

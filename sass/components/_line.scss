@@ -1,0 +1,25 @@
+.header-menu .link.current {
+    display: inline-block;
+    margin-right: 0px;
+    color: $accent-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em
+}
+
+.item.studio {
+    position: relative;
+}
+.link.current::after{
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 4px;
+    background-color: $accent-color;
+    bottom: -32px;
+    right: 0;
+    left:0 ;
+    margin:auto;
+    border-radius: 2px;
+}
