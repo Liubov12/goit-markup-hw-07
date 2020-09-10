@@ -1,5 +1,6 @@
-.link.current{
+a.link.current{
     position: relative;
+   
     
     
     &:after{
@@ -8,7 +9,7 @@
         position: absolute;
         width: 48px;
         height: 4px;
-        background-color: var(--accent-color);
+        background-color: $accent-color;
         bottom: -32px;
         right: 0;
         left:0 ;
@@ -18,6 +19,3 @@
 }
 
 
-.header-menu .portfolio{
-    color:$accent-color;
-}

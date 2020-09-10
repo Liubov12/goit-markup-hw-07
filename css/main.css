@@ -646,6 +646,10 @@ ul {
   margin-left: 50px;
 }
 
+a.link.current {
+  color: #2196F3;
+}
+
 .header-menu a {
   margin: 0px;
   font-family: "Roboto", sans-serif;
