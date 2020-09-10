@@ -103,49 +103,29 @@ ul{
 }
 
 .site.instagram{
-    display: inline-block;
-    width:44px;
-    height: 44px;
+    @extend %footer;
     background-image: url(../img/instagram.svg);
-    background-color:rgba(255, 255, 255, 0.1);;
     background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50%;
+   
 }
 
 .site.twitter{
-    display: inline-block;
-    width:44px;
-    height: 44px;
+    @extend %footer;
     background-image: url(../img/twitter.svg);
-    background-color:rgba(255, 255, 255, 0.1);
     background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50%;
+    
 }
 .site.facebook{
-    display: inline-block;
-    width:44px;
-    height: 44px;
+    @extend %footer;
     background-image: url(../img/fb.svg);
-    background-color:rgba(255, 255, 255, 0.1);;
     background-size: 10px 20px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50%;
+    
 }
 .site.linkedin{
-        display: inline-block;
-        width:44px;
-        height: 44px;
-        background-image: url(../img/linkedin.svg);
-        background-color:rgba(255, 255, 255, 0.1);;
-        background-size: 20px;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-radius: 50%;
+    @extend %footer;
+    background-image: url(../img/linkedin.svg);
+    background-size: 20px;
+        
 }
 
 .site:hover,

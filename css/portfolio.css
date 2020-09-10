@@ -548,6 +548,27 @@ summary {
 /*утилиты*/
 /* Миксины */
 /*Шрифты*/
+.pin-mail, .pin-phone {
+  position: relative;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.all, .veb, .options, .design, .marketing {
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+
+.site.instagram, .site.twitter, .site.facebook, .site.linkedin {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
 /* Шрифты */
 /* Для портфолио*/
 /* Стили для шапки*/
@@ -669,19 +690,13 @@ ul {
 }
 
 .pin-mail {
-  position: relative;
   width: 16px;
   height: 12px;
-  margin-right: 10px;
-  vertical-align: middle;
 }
 
 .pin-phone {
-  position: relative;
   width: 10px;
   height: 16px;
-  margin-right: 10px;
-  vertical-align: middle;
 }
 
 .contacts {
@@ -699,31 +714,26 @@ ul {
   fill: currentColor;
 }
 
-.header-menu .link.current {
-  display: inline-block;
-  margin-right: 0px;
-  color: #2196F3;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.item.studio {
+.link.current {
   position: relative;
 }
 
-.link.current::after {
+.link.current:after {
   content: "";
+  display: block;
   position: absolute;
   width: 48px;
   height: 4px;
-  background-color: #2196F3;
+  background-color: var(--accent-color);
   bottom: -32px;
   right: 0;
   left: 0;
   margin: auto;
   border-radius: 2px;
+}
+
+.header-menu .portfolio {
+  color: #2196F3;
 }
 
 .filters ul {
@@ -776,31 +786,6 @@ ul.menu a:hover, ul.menu a:focus {
 
 li.title {
   margin-right: 8px;
-}
-
-.all {
-  background: #F5F4FA;
-  border-radius: 4px;
-}
-
-.veb {
-  background: #F5F4FA;
-  border-radius: 4px;
-}
-
-.options {
-  background: #F5F4FA;
-  border-radius: 4px;
-}
-
-.design {
-  background: #F5F4FA;
-  border-radius: 4px;
-}
-
-.marketing {
-  background: #F5F4FA;
-  border-radius: 4px;
 }
 
 .flex-container {
@@ -922,6 +907,28 @@ li:focus {
   color: #2196F3;
 }
 
+footer {
+  background: #2F303A;
+}
+
+.footer-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-logo:hover, .footer-logo:focus {
+  color: #2196F3;
+}
+
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -933,6 +940,11 @@ li:focus {
 
 .social:hover, .social:focus {
   color: #2196F3;
+}
+
+.site:hover,
+.site:focus {
+  background-color: #2196F3;
 }
 
 .social-link.instagram {
@@ -985,5 +997,240 @@ li:focus {
 
 .social li + li {
   margin-left: 10px;
+}
+
+.footer {
+  margin-top: 72px;
+  margin-right: 93px;
+}
+
+.button.footer {
+  margin-right: 0;
+}
+
+.button.footer {
+  position: relative;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 62px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  background: #2196F3;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button.footer::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 13px;
+  right: 28px;
+  background-repeat: no-repeat;
+  background-image: url("../img/icon.svg");
+  background-size: contain;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+footer {
+  background: #2F303A;
+}
+
+.footer-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer-logo:hover, .footer-logo:focus {
+  color: #2196F3;
+}
+
+.address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address:hover, .address:focus {
+  color: #2196F3;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:hover, .footer-link:focus {
+  color: #2196F3;
+}
+
+.footer-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* footer-flex */
+.footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo-flex {
+  margin-top: 50px;
+  margin-right: 70px;
+  margin-bottom: 69px;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.link-flex {
+  margin-top: 72px;
+  margin-right: 93px;
+  margin-bottom: 36px;
+}
+
+.site.instagram {
+  background-image: url(../img/instagram.svg);
+  background-size: 20px;
+}
+
+.site.twitter {
+  background-image: url(../img/twitter.svg);
+  background-size: 20px;
+}
+
+.site.facebook {
+  background-image: url(../img/fb.svg);
+  background-size: 10px 20px;
+}
+
+.site.linkedin {
+  background-image: url(../img/linkedin.svg);
+  background-size: 20px;
+}
+
+.site:hover,
+.site:focus {
+  background-color: #2196F3;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.social li + li {
+  margin-left: 10px;
+}
+
+.button-flex {
+  margin-top: 72px;
+}
+
+.footer-input {
+  margin-right: 93px;
+  margin-top: 20px;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 12px;
+  background-color: transparent;
+}
+
+.form-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button.footer {
+  position: relative;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  padding-right: 62px;
+  background: #2196F3;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button.footer::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 13px;
+  right: 28px;
+  background-repeat: no-repeat;
+  background-image: url("../img/icon.svg");
+  background-size: contain;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 /*# sourceMappingURL=portfolio.css.map */

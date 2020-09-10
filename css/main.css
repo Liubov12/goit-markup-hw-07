@@ -548,6 +548,22 @@ summary {
 /*утилиты*/
 /* Миксины */
 /*Шрифты*/
+.pin-mail, .pin-phone {
+  position: relative;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.site.instagram, .site.twitter, .site.facebook, .site.linkedin {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
 /* Компоненты */
 /* Стили для шапки*/
 ul {
@@ -695,19 +711,13 @@ ul {
 }
 
 .pin-mail {
-  position: relative;
   width: 16px;
   height: 12px;
-  margin-right: 10px;
-  vertical-align: middle;
 }
 
 .pin-phone {
-  position: relative;
   width: 10px;
   height: 16px;
-  margin-right: 10px;
-  vertical-align: middle;
 }
 
 .contacts {
@@ -1530,51 +1540,23 @@ ul {
 }
 
 .site.instagram {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
   background-image: url(../img/instagram.svg);
-  background-color: rgba(255, 255, 255, 0.1);
   background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
 }
 
 .site.twitter {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
   background-image: url(../img/twitter.svg);
-  background-color: rgba(255, 255, 255, 0.1);
   background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
 }
 
 .site.facebook {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
   background-image: url(../img/fb.svg);
-  background-color: rgba(255, 255, 255, 0.1);
   background-size: 10px 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
 }
 
 .site.linkedin {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
   background-image: url(../img/linkedin.svg);
-  background-color: rgba(255, 255, 255, 0.1);
   background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
 }
 
 .site:hover,

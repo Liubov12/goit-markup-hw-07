@@ -1,0 +1,23 @@
+.link.current{
+    position: relative;
+    
+    
+    &:after{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 48px;
+        height: 4px;
+        background-color: var(--accent-color);
+        bottom: -32px;
+        right: 0;
+        left:0 ;
+        margin:auto;
+        border-radius: 2px;
+    }
+}
+
+
+.header-menu .portfolio{
+    color:$accent-color;
+}

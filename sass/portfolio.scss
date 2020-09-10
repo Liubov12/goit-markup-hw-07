@@ -7,6 +7,7 @@
 
 @import'./utils/mixins';
 @import'./utils/variables';
+@import'./utils/placeholder';
 
 
 
@@ -20,7 +21,7 @@
 @import'./components/logo';
 @import'./components/nav';
 @import'./components/contacts';
-@import'./components/line';
+@import'./components/line-portfolio';
 
 @import'./components/filters';
 @import'./components/techno';

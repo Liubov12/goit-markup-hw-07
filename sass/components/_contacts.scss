@@ -21,19 +21,16 @@ ul{
     }
 }
 .pin-mail{
-    position: relative;
+   @extend %contact;
     width: 16px;
     height: 12px;
-    margin-right: 10px;
-    vertical-align: middle;
+   
 
 }
 .pin-phone{
-    position: relative;
+    @extend %contact;
     width: 10px;
     height: 16px;
-    margin-right: 10px;
-    vertical-align: middle;
 
 }
 .contacts{

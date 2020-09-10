@@ -38,6 +38,10 @@ footer{
         color:$accent-color;
     }
 }
+.site:hover,
+.site:focus {
+  background-color: #2196F3;
+}
 .social-link.instagram{
     display: inline-block;
     width:44px;
@@ -85,5 +89,49 @@ footer{
 
 .social li+li{
     margin-left: 10px;
+}
+
+.footer{
+    margin-top:72px;
+    margin-right:93px
+}
+.button.footer{
+    margin-right: 0;
+}
+.button.footer{
+    position: relative;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 29px;
+    padding-right: 62px;
+    font-family:$base-font;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height:1.88;
+    letter-spacing: 0.06em;
+    color:$white-color;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    
+    
+    &::after{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    right: 28px;
+   
+    background-repeat: no-repeat;
+    background-image: url("../img/icon.svg");
+    background-size: contain;
+    align-items: flex-end;
+    }
+
 }
 

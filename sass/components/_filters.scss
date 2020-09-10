@@ -51,25 +51,20 @@ li.title{
 }
 
 .all{
-    background: #F5F4FA;
-    border-radius: 4px;
+   @extend %filters;
 }
 .veb{
-    background: #F5F4FA;
-    border-radius: 4px;
+    @extend %filters;
 }
 .options{
-    background: #F5F4FA;
-    border-radius: 4px;
+    @extend %filters;
     
 }
 .design{
-    background: #F5F4FA;
-    border-radius: 4px;
+    @extend %filters;
 
 }
 .marketing{
  
-    background: #F5F4FA;
-    border-radius: 4px;
+    @extend %filters;
 }
